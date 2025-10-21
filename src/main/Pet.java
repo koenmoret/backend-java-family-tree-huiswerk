@@ -13,36 +13,16 @@ public class Pet {
         this.age = age;
     }
 
-    public String getName() {
-        return name;
-    }
+    // Getters
+    public String getName() { return name; }
+    public int getAge() { return age; }
+    public String getSpecies() { return species; }
+    public Person getOwner() { return owner; }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getSpecies() {
-        return species;
-    }
-
-    public void setSpecies(String species) {
-        this.species = species;
-    }
-
-    public Person getOwner() {
-        return owner;
-    }
-
-    public void setOwner(Person owner) {
-        this.owner = owner;
-    }
+    // Setters
+    public void setName(String name) { this.name = name; }
+    public void setAge(int age) { this.age = age; }
+    public void setSpecies(String species) { this.species = species; }
+    public void setOwner(Person owner) { this.owner = owner; }
 
 }
